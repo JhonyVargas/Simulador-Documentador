@@ -271,6 +271,21 @@ export default function TopBar({ session, onLogout }: TopBarProps) {
           <span className="hidden md:inline">Comparar</span>
         </button>
 
+        <Sep />
+
+        {/* ── Replicador ───────────────────────────────────────────────────── */}
+        <a
+          href="/replicador"
+          title="Replicador — replica datos entre motores reales"
+          className="flex items-center gap-1.5 h-8 px-3 rounded-lg text-xs font-medium transition-all select-none text-slate-400 hover:text-purple-300 hover:bg-purple-900/20 border border-transparent"
+        >
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+            <polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/>
+            <polyline points="21 16 21 21 16 21"/><line x1="15" y1="15" x2="21" y2="21"/>
+          </svg>
+          <span className="hidden md:inline">Replicador</span>
+        </a>
+
         <div className="flex-1" />
 
         {/* ── Right tools ──────────────────────────────────────────────────── */}

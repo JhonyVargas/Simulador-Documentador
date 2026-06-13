@@ -20,8 +20,9 @@ export default defineConfig({
     emptyOutDir: true,
     rollupOptions: {
       input: {
-        index:     resolve(__dirname, 'index.html'),
-        simulator: resolve(__dirname, 'simulator.html'),
+        index:       resolve(__dirname, 'index.html'),
+        simulator:   resolve(__dirname, 'simulator.html'),
+        replicador:  resolve(__dirname, 'replicador.html'),
       },
     },
   },
